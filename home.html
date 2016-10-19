@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    
+    <title> Stadio London </title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Sans" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/knockout/3.4.0/knockout-min.js"></script>
+    <script src="js/libs/oauth-signature.min.js"></script>
+       
+  </head>
+
+  <body>
+
+
+    
+    <div id="container"> 
+
+      <div id="heading_div">     
+          <h1 id="heading"> STADIO </h1>
+      </div>
+      <div id="list_div">
+        <input id="search_bar" data-bind="textInput: searchTerm" placeholder="Enter team"/>
+        <ul id="team_list" data-bind="foreach: searchResults">
+          <li id="team_list_item"data-bind="text: teamName, click: $parent.setTeam"></li>
+        </ul>
+      </div>
+      
+      <div id="map">
+      </div>
+
+
+
+    </div>
+   
+    <script src="js/teams.js"></script>
+    <script src="js/app.js"></script>    
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBjUkH0bfRWNnLhVI2TffyE5An5fC4pMuE&callback=startAll"
+    async defer></script>
+    
+    
+    
+    
+
+  </body>
+</html>

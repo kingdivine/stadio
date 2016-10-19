@@ -1,0 +1,69 @@
+html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+ }
+
+.container{
+	height: 100%;
+	position: relative;
+}
+
+#map{
+    width: 100%;
+  	height: 100%;
+  	position: absolute;
+  	top: 0;
+  	left: 0;
+ } 
+
+#list_div{
+	z-index: 99;
+	width: 20%;
+  position: absolute;
+  text-align: left;
+  background: white;
+  padding: 5px;
+  border: 2px solid #000000;
+  font-family: sans-serif;
+  margin-left: 4px;
+  margin-top: 4px;
+}
+
+#heading_div{
+  z-index: 99;
+  width: 10%;
+  position: absolute;
+  text-align: center;  
+  font-family: sans-serif;
+  margin-left:45%;
+}
+
+#heading{
+  font-family: 'Droid Sans', sans-serif;
+  text-shadow: 3px 3px white;
+  font-size: 2em;
+}
+
+#search_bar{
+  width: 98%;
+  height: 2em;
+}
+
+#team_list{
+  list-style: none;
+  width: 100%;
+  padding-left: 0px;
+  display: none;
+}
+
+#team_list_item{
+  background : white; 
+  height: 2em;
+  padding: 5px 0px 5px 0px;
+  border-top: 1px solid #aeb4ba;
+}
+
+#team_list_item:hover{
+  background: #f9f9f9;
+}
