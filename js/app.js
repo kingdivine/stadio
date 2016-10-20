@@ -8,10 +8,10 @@ var $searchBar = $('#search_bar');
 var $list = $('#team_list');
 
 // YELP REQUEST PARAMETERS
-var CONSUMER_KEY =	'<YOUR_CONSUMER_KEY_HERE>';
-var SECRET = '<YOUR_SECRET_HERE>';
-var TOKEN =	'<YOUR_TOKEN_HERE>';
-var TOKEN_SECRET = '<YOUR_TOKEN_SECRET_HERE>';
+var CONSUMER_KEY =	'1RP8aqKrIyNUCYnjjEMvHg';
+var SECRET = 'qDjzJCHK0G_ft9o-EG4Gtqn5wws';
+var TOKEN =	'AsIR0Jj1XusRduntA7ZZnNV5kBp9dvYV';
+var TOKEN_SECRET = '1AKuFd6yzYEEvIJReZCfNP-fYFw';
 
 //map intialize function
 var initMap = function() {
